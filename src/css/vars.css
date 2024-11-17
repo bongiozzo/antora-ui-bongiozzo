@@ -26,7 +26,8 @@
 
   /* General */
   --font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
-  --font-family-special: "Metropolis", "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  --font-family-special: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, Helvetica, Arial, sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";
+  /* --font-family-special: "Metropolis", "Helvetica", "Arial", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol";  */
   --font-weight: 400;
   --monospace-font-family: "SFMono-Regular", "Consolas", "Liberation Mono", "Menlo", monospace;
   --body-background-color: white;
@@ -38,7 +39,7 @@
   --color-accent-1: #ebf2f2;
   --color-accent-1-hover: #d3dddd;
   --color-accent-2: #d7e7e7;
-  --color-accent-3: #6db33f;
+  --color-accent-3: #3fafb3;
   --body-font-color: #191e1e;
   --body-font-light-color: #273030;
   --body-font-dark-color: #141818;
@@ -47,7 +48,7 @@
   --code-link-font-color: var(--link-font-color);
   --scrollbar-thumb-color: silver;
   --scrollbar_hover-thumb-color: silver;
-  --mark-background-color: #80ea6e;
+  --mark-background-color: var(--color-accent-3);
   --selected-background-color: #191e1e;
   --caption-font-style: italic;
 
@@ -138,6 +139,7 @@
   --navbar-menu-background: var(--body-background-color);
   --navbar-menu-font-color: var(--body-font-color);
   --navbar-menu_hover-background: var(--navbar-menu-background);
+  --navbar-menu-boxshadow: 0 5px 30px 0 rgb(0 0 0 / 50%);
 
   /* Nav */
   --nav-background: var(--color-white);
@@ -219,7 +221,7 @@
   --toc-height: calc(100vh - var(--toc-top) - 2.5rem);
   --toc-width--widescreen: calc(216 / var(--rem-base) * 1rem);
   --doc-max-width: calc(720 / var(--rem-base) * 1rem);
-  --doc-max-width--desktop: calc(1200 / var(--rem-base) * 1rem);
+  --doc-max-width--desktop: calc(828 / var(--rem-base) * 1rem);
 
   /* Stacking */
   --z-index-nav: 1;
@@ -262,14 +264,14 @@ html.dark-theme {
   --color-accent-1: #272c33;
   --color-accent-1-hover: #434d5c;
   --color-accent-2: #2d333a;
-  --color-accent-3: #6db33f;
+  --color-accent-3: #3fafb3;
   --body-font-color: #bbbcbe;
   --body-font-light-color: #abacaf;
   --body-font-dark-color: #cecfd1;
   --link-font-color: #086dc3;
   --link_hover-font-color: #107ddd;
   --scrollbar-thumb-color: #5f5f5f;
-  --mark-background-color: #2eca12;
+  --mark-background-color: var(--color-accent-3);
   --selected-background-color: #e5e5e5;
 
   /* Admonitions */
@@ -319,7 +321,6 @@ html.dark-theme {
   --nav-muted-color: #aaa;
   --nav-panel-divider-color: rgba(255, 255, 255, 0.2);
   --nav-secondary-background: var(--body-background-color);
-  --navbar-menu-boxshadow: 0 5px 30px 0 rgb(0 0 0 0 / 50%);
 
   /* Toolbar */
   --toolbar-background: var(--body-background-color);
@@ -331,6 +332,7 @@ html.dark-theme {
   /* Doc */
   --doc-font-color: var(--body-font-color);
   --heading-font-color: var(--body-font-dark-color);
+  --quote-font-color: var(--color-gray-10);
 
   /* Footer */
   --footer-background: var(--body-background-color);

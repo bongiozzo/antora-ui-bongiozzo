@@ -60,11 +60,11 @@
     })
   }
 
-  document.querySelector('#browse-version').addEventListener('click', function () {
-    MicroModal.show('modal-versions', {
-      disableScroll: true,
-    })
-  })
+  // document.querySelector('#browse-version').addEventListener('click', function () {
+  //   MicroModal.show('modal-versions', {
+  //     disableScroll: true,
+  //   })
+  // })
 
   document.querySelector('#nav-collapse-toggle').addEventListener('click', function () {
     if (isNavOpen) {

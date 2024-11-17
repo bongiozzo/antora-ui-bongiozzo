@@ -4,6 +4,7 @@
 :idprefix:
 :idseparator: -
 :page-pagination:
+:stem:
 
 This page uses for testings **asciidoc semantic markup**. Inspired by
 https://gitlab.univ-nantes.fr/bousse-e/stereopticon/-/blob/master/asciidoc-tests/index.adoc[Source]
@@ -98,7 +99,7 @@ footnote:disclaimer[Opinions are my own.]
 [#img-sunset] 
 .A mountain sunset 
 [link=https://www.flickr.com/photos/javh/5448336655] 
-image::/_/img/spring-logo.svg[Spring,300,200]
+image::../img/spring-logo.svg[Spring,300,200]
 
 ==== Inline
 
@@ -489,6 +490,8 @@ comment
 
 ==== Multi-lines
 
+[example]
+.Example's Title 
 ====
 This is an example
 ======
@@ -1331,3 +1334,10 @@ Artist,Track,Genre
 Baauer,Harlem Shake,Hip Hop
 The Lumineers,Ho Hey,Folk Rock
 |===
+
+=== STEM content
+
+[stem]
+++++
+L = int f(t)
+++++

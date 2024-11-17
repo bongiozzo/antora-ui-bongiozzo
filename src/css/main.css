@@ -47,9 +47,9 @@
   margin: 0 auto;
 }
 
-#springlogo,
-#springlogo-foot {
-  height: 45px;
+#wtdlogo,
+#wtdlogo-foot {
+  height: 32px;
   max-width: 250px;
 }
 
@@ -72,17 +72,9 @@ footer #social-icons a:focus svg .cls-1 {
   fill: var(--color-accent-3);
 }
 
-footer #spring-links a:hover {
+footer #wtd-links a:hover {
   color: #086dc3;
   text-decoration: underline;
-}
-
-#youtube-icon .cls-1 {
-  fill: var(--social-icon-circle);
-}
-
-#youtube-icon .cls-2 {
-  fill: var(--social-icon-color);
 }
 
 #github-icon .cls-1 {
@@ -94,11 +86,11 @@ footer #spring-links a:hover {
   fill-rule: evenodd;
 }
 
-#twitter-icon .cls-1 {
+#telegram-icon .cls-1 {
   fill: var(--social-icon-circle);
 }
 
-#twitter-icon .cls-2 {
+#telegram-icon .cls-2 {
   fill: var(--social-icon-color);
 }
 
@@ -142,6 +134,10 @@ html.dark-theme .sidebar-links a svg {
 
 html.dark-theme .sidebar-links a:hover svg {
   fill: var(--link-font-color);
+}
+
+html.dark-theme .navbar-brand a svg {
+  fill: #fff;
 }
 
 #modal-versions .colset {

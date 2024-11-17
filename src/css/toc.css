@@ -46,7 +46,7 @@
   }
 
   .toc .toc-menu ul {
-    font-size: calc(12 / var(--rem-base) * 1rem);
+    font-size: calc(14 / var(--rem-base) * 1rem);
   }
 }
 
@@ -76,7 +76,7 @@
 }
 
 .toc .toc-menu a.is-active {
-  border-left-color: #6bb536;
+  border-left-color: var(--color-accent-3);
   color: var(--doc-font-color);
 }
 
