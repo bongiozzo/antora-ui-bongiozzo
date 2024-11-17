@@ -1,6 +1,6 @@
 # Shared Goals
 
-[![On Push](https://github.com/bongiozzo/antora-ui-bongiozzo/actions/workflows/push.yml/badge.svg?branch=main)](https://github.com/spring-io/antora-ui-bongiozzo/actions/workflows/push.yml)
+[![On Push](https://github.com/bongiozzo/antora-ui-bongiozzo/actions/workflows/push.yml/badge.svg?branch=main)](https://github.com/bongiozzo/antora-ui-bongiozzo/actions/workflows/push.yml)
 
 This project generates and packages the static resources that Shared Goals uses for document production.
 
