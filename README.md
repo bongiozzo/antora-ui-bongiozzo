@@ -1,17 +1,10 @@
+# Shared Goals
 
-<p align="center">
-  <a href="https://www.spring.io/">
-    <img alt="Spring" src="https://spring.io/img/spring-2.svg" width="250" />
-  </a>
-</p>
+[![On Push](https://github.com/bongiozzo/antora-ui-bongiozzo/actions/workflows/push.yml/badge.svg?branch=main)](https://github.com/spring-io/antora-ui-bongiozzo/actions/workflows/push.yml)
 
-[![On Push](https://github.com/spring-io/antora-ui-spring/actions/workflows/push.yml/badge.svg?branch=main)](https://github.com/spring-io/antora-ui-spring/actions/workflows/push.yml)
-
-
-This project generates and packages the static resources that Spring uses for document production.
+This project generates and packages the static resources that Shared Goals uses for document production.
 
 This project is based on [Antora](https://antora.org).
-
 
 ## Development Quickstart
 
@@ -28,7 +21,7 @@ To preview and bundle the Antora Spring UI, you need the following software on y
 
 ### Preview the UI
 
-The Spring Antora UI project is configured to preview offline.
+The Bongiozzo Antora UI project is inherited from Spring project and configured to preview offline.
 The files in the `preview-src/` folder provide the sample content that allow you to see the UI in action.
 In this folder, you'll primarily find pages written in AsciiDoc.
 These pages provide a representative sample and kitchen sink of content from the real site.
@@ -85,7 +78,7 @@ The UI presents a list of related documentation and that documentation can be fi
 * page-related-doc-categories - The categories to be included in the related documentation
 * page-related-doc-projects - The project ids to be included in the related documentation
 
-For a complete listing of valid categories and ids view [related_projects.js](https://github.com/spring-io/antora-ui-spring/blob/main/src/helpers/related_projects.js)
+For a complete listing of valid categories and ids view [related_projects.js](https://github.com/bongiozzo/antora-ui-bongiozzo/blob/main/src/helpers/related_projects.js)
 
 The configuration is typically specified in asciidoc attributes section of the `antora-playbook.yml`:
 
