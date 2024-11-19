@@ -99,13 +99,11 @@ footnote:disclaimer[Opinions are my own.]
 [#img-sunset] 
 .A mountain sunset 
 [link=https://www.flickr.com/photos/javh/5448336655] 
-image::../img/spring-logo.svg[Spring,300,200]
+image::/_/img/spring-logo.svg[Spring,300,200]
 
 ==== Inline
 
 Click image:/_/img/chevron.svg[Play, 10,10] to get the party started.
-
-
 
 You can find image:https://upload.wikimedia.org/wikipedia/commons/3/35/Tux.svg[Linux,25,35] everywhere these days.
 
@@ -134,6 +132,11 @@ image::/_/img/spring-logo.svg[Spring,640,480]
 
 image::/_/img/spring-logo.svg[Spring,50%]
 
+image::/_/img/spring-logo.svg[Spring,50%, align=center]
+
+image::/_/img/spring-logo.svg[Spring,50%, align=right]
+
+image::/_/img/spring-logo.svg[Spring,50%, align=left]
 
 === Taming SVGs
 
