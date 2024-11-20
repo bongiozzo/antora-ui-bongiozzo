@@ -13,7 +13,7 @@ A more comprehensive tutorial can be found in the documentation at [docs.antora.
 
 ### Prerequisites
 
-To preview and bundle the Antora Spring UI, you need the following software on your computer:
+To preview and bundle the Antora Bongiozzo UI, you need the following software on your computer:
 
 * [git](https://git-scm.com/) (command: `git`)
 * [Node.js](https://nodejs.org/) (commands: `node` and `npm`)
@@ -90,9 +90,6 @@ asciidoc:
     # Include the projects with ids framework and graphql
     page-related-doc-projects: framework,graphql
 ```
-
-The Related Documentation links to the `All Docs...` page.
-To include this resource, ensure that the [antora-extensions](https://github.com/spring-io/antora-extensions/blob/main/README.adoc) is using 1.7.0+ and the [Static Page Extension](https://github.com/spring-io/antora-extensions/blob/main/README.adoc#static-page) is included.
 
 ## Authors
 
